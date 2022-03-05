@@ -1,0 +1,18 @@
+ul.nav li{
+    display: inline;
+    padding-inline-start: 0px;
+    padding-right: 15px;
+    
+  }
+  .nav a{
+    text-decoration: none;
+  }
+  ul.nav li:hover{
+    background-color: blanchedalmond;
+  }
+  ul.nav{
+    padding-inline-start: 0px;
+  }
+div{
+    margin-left:30px;
+}
