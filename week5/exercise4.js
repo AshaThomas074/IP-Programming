@@ -1,3 +1,4 @@
+var timer;
 function myFunction(){ 
     document.addEventListener('keydown',myKeyDown);
 }
@@ -30,16 +31,21 @@ function moveDown()
 function myKeyDown(event){
     console.log(event.keyCode);
     if(event.keyCode == 37){
-        moveLeft();
+        clearInterval(timer);
+        timer=setInterval(moveLeft,1000);
+        
     }
     if(event.keyCode == 38){
-        moveUp();
+        clearInterval(timer);
+        timer=setInterval(moveUp,1000);
     }
     if(event.keyCode == 39){
-        moveRight();
+        clearInterval(timer);
+        timer=setInterval(moveRight,1000);
     }
     if(event.keyCode == 40){
-        moveDown();
+        clearInterval(timer);
+        timer=setInterval(moveDown,1000);
     }
 
 }
