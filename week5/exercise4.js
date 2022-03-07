@@ -12,8 +12,10 @@ function myNewFunction()
 
 function myTimerAction(){
     var element=document.getElementById("circle");    
-    var circleOpacity=parseFloat(element.style.opacity);
-    element.style.opacity=circleOpacity-0.1;  
+    var positionLeft=element.offsetLeft;
+    element.style.left=positionLeft-10+'px';
+    //var circleOpacity=parseFloat(element.style.opacity);
+    //element.style.opacity=circleOpacity-0.1;  
 }
 
 document.addEventListener('DOMContentLoaded',myFunction);
