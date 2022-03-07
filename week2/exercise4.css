@@ -1,8 +1,11 @@
 html,body{
     height: 100%;
+    margin: 0px;
 }
-h1{
+.header h1{
     margin:0px;
+    padding-top: 15px;
+    padding-left: 24px;
 }
 .header{
     width:100%;
@@ -23,18 +26,19 @@ h1{
 .section1{
     width:15%;
     background-color: yellow;
-    height: 88% !important;
+    height: 580px !important;
 }
 .section2{
     width:70%;
     background-color: darkblue;
     color:#fff;
+    height: 580px;
 }
 .section3{
     width:15%;
     background-color: lightgreen;
+    height: 580px !important;
 }
 .content{
     float: left;
-    height: 88%;
 }
