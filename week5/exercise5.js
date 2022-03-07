@@ -6,6 +6,7 @@ function myFunction(){
 
 function myNewFunction()
 {
+    element.style.backgroundColor='blue';
     setInterval(myTimerAction,1000);
     
 }
