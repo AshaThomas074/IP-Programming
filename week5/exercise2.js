@@ -1,5 +1,6 @@
 function myFunction(){
-    var element=document.getElementById("circle");    
+    var element=document.getElementById("circle");
+    element.style.opacity='1';    
     element.addEventListener('click',myNewFunction);
 }
 
