@@ -20,7 +20,8 @@ body {
 	box-shadow: 5px 5px 5px #333; 
 	text-shadow: 2px 2px 0px #000; 
 	color: #fff;
-	opacity: 20%;
+	/*opacity: 20%;*/
+	opacity:1;
 }
 
 
