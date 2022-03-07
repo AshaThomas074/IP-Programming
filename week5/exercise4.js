@@ -8,7 +8,8 @@ function myNewFunction()
 {
     var element=document.getElementById("circle");
     element.style.backgroundColor='blue';
-    element.style.opacity='1';   
+    var circleOpacity=parseFloat(element.style.opacity);
+    element.style.opacity=circleOpacity+0.1;  
     
 }
 
